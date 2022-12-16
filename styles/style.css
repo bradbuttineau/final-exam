@@ -1,0 +1,174 @@
+@import url(./reset.css);
+
+body {
+    background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    background-repeat: repeat;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: lightblue;
+}
+
+nav ul {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 2em;
+
+}
+
+nav a {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    background-color: #fff;
+}
+
+/* HEADER */
+header {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 149px;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+/* MAIN */
+main {
+    background-color: #fff;
+
+}
+
+/* ASIDE */
+aside {
+    width: 30%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    text-decoration: bold;
+    
+
+}
+
+aside h2 {
+    color: #fff;
+    background-color: lightblue;
+    font-size: 2.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em;
+    border-bottom: 1px solid lightblue;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+    display: flex;
+
+}
+
+aside ul {
+    list-style: none;
+    color: black;
+    font-size: bold;
+    text-align: center;
+    font-size: 1.4em;
+
+}
+
+aside li {
+    padding: 1em;
+    border-bottom: 1px solid #fff;
+    display: flex;
+}
+
+.figure-one {
+    float: left;
+    justify-content: left;
+
+    
+}
+
+.figure-two {
+    float: right;
+    justify-content: right;
+    display: flex;
+}
+
+figure cite {
+    display: block;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    list-style: none;
+    color: white
+}
+
+figure img {
+    width: 250px;
+
+}
+
+
+
+
+/* FOOTER */
+footer{
+
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+button {
+    color: white;
+    background-color: gray;
+    padding: 1em;
+    
+}
+
+ 
+
+
+
+
+
